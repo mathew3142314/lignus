@@ -62,7 +62,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               Lámparas de madera
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Hechas con parota
+              Hechas con parota reciclada
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
